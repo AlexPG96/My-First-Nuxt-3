@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <NuxtLayout name="BasicLayout">
     <!-- Markup shared across all pages, ex: NavBar -->
     <NavBar />
     <NuxtPage />
-  </div>
+  </NuxtLayout>
 </template>
